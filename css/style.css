@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px;
+    margin-bottom: 80px;
+}
+
+li {
+    display: inline-block;
+    font-size: 21px;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.hover:hover{
+    text-decoration: underline;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+.login {
+    color: hsl(231, 7%, 65%);
+}
+
+.dot {
+    color: hsl(231, 7%, 65%);
+    font-size: 40px;
+    position: relative;
+    bottom: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+
+.para-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new{
+    background-color: hsl(230, 29%, 20%);
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 3px 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.para-container p{
+    color:hsl(231, 7%, 65%) ;
+    font-size: 21px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1{
+    color: hsl(230, 29%, 20%);
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    line-height: 4.4rem;
+    width: 550px;
+}
+
+.para{
+    color:hsl(236, 16%, 64%) ;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: hsl(0, 100%, 68%);
+    color: hsl(207, 33%, 95%);
+    padding: 15px 35px;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+button:hover{
+    background-color:hsla(0, 100%, 68%, 0.678) ;
+    cursor: pointer;
+}
+
+.image{
+    position: relative;
+    left: 152px;
+}
+
+.back{
+    width:50% ;
+    height:55% ;
+    background-color:hsl(207, 33%, 95%);
+    position: absolute;
+    right: 0;
+    z-index: -7;
+    border-bottom-left-radius: 50px;
+}
